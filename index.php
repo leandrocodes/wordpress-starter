@@ -23,6 +23,12 @@
 						the_title();
 					?>
 				</h3>
+				<p>
+					<?php
+						the_content();
+					?>
+				</p>
+
 		<?php endwhile; ?>
 		<?php else :
 			echo wpautop('No posts yet...');

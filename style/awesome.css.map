@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,IAAI;AACJ,IAAI,CAAC;EACD,MAAM,EAAE,CAAC;EACT,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,IAAI;EAChB,WAAW,EAAE,UAAU;CAAG;;AAC9B,AAAA,IAAI,CAAC;EACD,OAAO,EAAE,IAAI;CAAG",
-    "sources": [
-        "awesome.sass"
-    ],
-    "names": [],
-    "file": "awesome.css"
-}

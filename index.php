@@ -15,8 +15,15 @@
 	</header>
 
 	<main>
-		<?php if (have_posts()) : ?>
-			post found
+		<?php if (have_posts()) :
+			while (have_posts()) : the_post();
+		?>	
+				<h3>
+					<?php 
+						the_title();
+					?>
+				</h3>
+		<?php endwhile; ?>
 		<?php else :
 			echo wpautop('No posts yet...');
 		endif;

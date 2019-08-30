@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html <?php language_attributes(); ?>>
+<html <?php language_attributes(); ?>k>
 
 <head>
 	<meta charset="<?php bloginfo('charset'); ?>">
@@ -25,6 +25,9 @@
 					the_title();
 				?>
 			</h3>
+			<div class="meta">
+				Created by <?php the_author() ?>
+			</div>
 			<p>
 				<?php
 					the_content();
